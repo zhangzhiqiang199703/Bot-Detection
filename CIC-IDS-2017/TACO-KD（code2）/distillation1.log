@@ -1,0 +1,58 @@
+nohup: ignoring input
+教师模型参数量: 529,026
+学生模型参数量: 138,562 (压缩率: 3.82x)
+Epoch 010 | Loss: 0.0604
+Epoch 020 | Loss: 0.0520
+Epoch 030 | Loss: 0.0437
+Epoch 040 | Loss: 0.0402
+Epoch 050 | Loss: 0.0372
+Epoch 060 | Loss: 0.0344
+Epoch 070 | Loss: 0.0316
+Epoch 080 | Loss: 0.0304
+Epoch 090 | Loss: 0.0290
+Epoch 100 | Loss: 0.0284
+Epoch 110 | Loss: 0.0283
+Epoch 120 | Loss: 0.0291
+Epoch 130 | Loss: 0.0290
+Epoch 140 | Loss: 0.0298
+Epoch 150 | Loss: 0.0337
+Epoch 160 | Loss: 0.0324
+Epoch 170 | Loss: 0.0349
+Epoch 180 | Loss: 0.0351
+Epoch 190 | Loss: 0.0353
+Epoch 200 | Loss: 0.0316
+Epoch 210 | Loss: 0.0305
+Epoch 220 | Loss: 0.0297
+Epoch 230 | Loss: 0.0274
+Epoch 240 | Loss: 0.0268
+Epoch 250 | Loss: 0.0267
+Epoch 260 | Loss: 0.0269
+Epoch 270 | Loss: 0.0252
+Epoch 280 | Loss: 0.0241
+Epoch 290 | Loss: 0.0243
+Epoch 300 | Loss: 0.0246
+
+--- 教师模型 (Full) 评估报告 ---
+              precision    recall  f1-score   support
+
+      BENIGN     1.0000    0.9806    0.9902      5819
+         Bot     0.7968    1.0000    0.8869       443
+
+    accuracy                         0.9820      6262
+   macro avg     0.8984    0.9903    0.9385      6262
+weighted avg     0.9856    0.9820    0.9829      6262
+
+
+--- 蒸馏学生模型 (DSTMD) 评估报告 ---
+              precision    recall  f1-score   support
+
+      BENIGN     0.9998    0.9814    0.9905      5819
+         Bot     0.8036    0.9977    0.8902       443
+
+    accuracy                         0.9826      6262
+   macro avg     0.9017    0.9896    0.9404      6262
+weighted avg     0.9859    0.9826    0.9835      6262
+
+教师 F1: 0.9829 | 学生 F1: 0.9835
+性能保持率: 100.06%
+参数量缩减: 3.8 倍

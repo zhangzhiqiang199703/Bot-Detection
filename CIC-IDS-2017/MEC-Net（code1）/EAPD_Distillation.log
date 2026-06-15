@@ -1,0 +1,123 @@
+nohup: ignoring input
+2026-05-22 18:20:00.360082: I tensorflow/core/util/port.cc:110] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-05-22 18:20:00.405579: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-22 18:20:01.065405: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2026-05-22 18:20:02.411085: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1639] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 7955 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4090, pci bus id: 0000:21:00.0, compute capability: 8.9
+2026-05-22 18:20:04.557672: I tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:606] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+      Teacher 参数量: 571,759
+      Teacher 基准准确率: 0.9834
+      Student 参数量: 63,112  压缩率: 11.04%  减少: 89.0%
+  [Init] Warm-building LSTR...
+  [Init] LSTR built, params: 8,514
+2026-05-22 18:20:23.114555: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7f0f8c5b8450 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2026-05-22 18:20:23.114606: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA GeForce RTX 4090, Compute Capability 8.9
+2026-05-22 18:20:23.120124: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:255] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2026-05-22 18:20:23.182459: I tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:432] Loaded cuDNN version 8907
+2026-05-22 18:20:23.238077: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2026-05-22 18:20:23.241710: W tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:231] Falling back to the CUDA driver for PTX compilation; ptxas does not support CC 8.9
+2026-05-22 18:20:23.241723: W tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:234] Used ptxas at ptxas
+2026-05-22 18:20:23.260205: I ./tensorflow/compiler/jit/device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2026-05-22 18:20:23.317857: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2026-05-22 18:20:23.394961: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2026-05-22 18:20:23.645688: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2026-05-22 18:20:23.853095: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2026-05-22 18:20:24.526574: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2026-05-22 18:20:25.389175: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2026-05-22 18:20:25.592689: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2026-05-22 18:20:25.856581: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2026-05-22 18:20:27.771700: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2026-05-22 18:20:27.842446: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2026-05-22 18:20:28.242475: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2026-05-22 18:20:28.312362: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2026-05-22 18:20:30.575576: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2026-05-22 18:20:30.707308: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2026-05-22 18:20:31.180661: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+Ep 001/150 | L=0.3165 CE=0.2494 KD=0.2405 ICD=0.6276 LSTR=0.0623 | val=0.9689  ← ★ 最佳
+Ep 005/150 | L=0.0983 CE=0.2076 KD=0.0467 ICD=0.1423 LSTR=0.0048 | val=0.9702
+Ep 010/150 | L=0.0921 CE=0.2073 KD=0.0425 ICD=0.1257 LSTR=0.0036 | val=0.9696
+Ep 015/150 | L=0.0872 CE=0.2072 KD=0.0410 ICD=0.1090 LSTR=0.0037 | val=0.9706
+Ep 020/150 | L=0.0772 CE=0.2034 KD=0.0326 ICD=0.0853 LSTR=0.0021 | val=0.9733
+Ep 025/150 | L=0.0848 CE=0.2058 KD=0.0406 ICD=0.0985 LSTR=0.0044 | val=0.9750
+Ep 030/150 | L=0.0789 CE=0.2025 KD=0.0334 ICD=0.0866 LSTR=0.0024 | val=0.9764
+Ep 035/150 | L=0.0756 CE=0.2008 KD=0.0306 ICD=0.0762 LSTR=0.0019 | val=0.9767  ← ★ 最佳
+Ep 040/150 | L=0.0714 CE=0.1980 KD=0.0272 ICD=0.0630 LSTR=0.0012 | val=0.9774
+Ep 045/150 | L=0.0785 CE=0.1997 KD=0.0344 ICD=0.0755 LSTR=0.0035 | val=0.9747
+Ep 050/150 | L=0.0862 CE=0.2004 KD=0.0400 ICD=0.0951 LSTR=0.0035 | val=0.9778
+Ep 055/150 | L=0.0786 CE=0.1964 KD=0.0346 ICD=0.0708 LSTR=0.0026 | val=0.9730
+Ep 060/150 | L=0.0818 CE=0.1965 KD=0.0402 ICD=0.0723 LSTR=0.0034 | val=0.9757
+Ep 065/150 | L=0.0755 CE=0.1920 KD=0.0301 ICD=0.0575 LSTR=0.0015 | val=0.9784
+Ep 070/150 | L=0.0756 CE=0.1898 KD=0.0314 ICD=0.0535 LSTR=0.0010 | val=0.9798
+Ep 075/150 | L=0.0734 CE=0.1865 KD=0.0289 ICD=0.0424 LSTR=0.0021 | val=0.9802
+Ep 080/150 | L=0.0701 CE=0.1807 KD=0.0251 ICD=0.0319 LSTR=0.0017 | val=0.9836
+Ep 085/150 | L=0.0706 CE=0.1793 KD=0.0263 ICD=0.0282 LSTR=0.0012 | val=0.9836
+Ep 090/150 | L=0.0950 CE=0.1889 KD=0.0555 ICD=0.1007 LSTR=0.0044 | val=0.9733
+Ep 095/150 | L=0.0855 CE=0.1821 KD=0.0500 ICD=0.0630 LSTR=0.0037 | val=0.9781
+Ep 100/150 | L=0.0884 CE=0.1815 KD=0.0551 ICD=0.0691 LSTR=0.0046 | val=0.9771
+Ep 105/150 | L=0.0864 CE=0.1800 KD=0.0577 ICD=0.0537 LSTR=0.0039 | val=0.9802
+Ep 110/150 | L=0.0818 CE=0.1745 KD=0.0526 ICD=0.0397 LSTR=0.0026 | val=0.9802
+Ep 115/150 | L=0.0799 CE=0.1695 KD=0.0526 ICD=0.0373 LSTR=0.0013 | val=0.9846  ← ★ 最佳
+Ep 120/150 | L=0.0834 CE=0.1705 KD=0.0628 ICD=0.0387 LSTR=0.0037 | val=0.9846
+Ep 125/150 | L=0.0801 CE=0.1670 KD=0.0613 ICD=0.0273 LSTR=0.0019 | val=0.9829
+Ep 130/150 | L=0.0795 CE=0.1643 KD=0.0634 ICD=0.0262 LSTR=0.0014 | val=0.9836
+Ep 135/150 | L=0.0835 CE=0.1658 KD=0.0745 ICD=0.0303 LSTR=0.0049 | val=0.9784
+Ep 140/150 | L=0.0804 CE=0.1628 KD=0.0705 ICD=0.0258 LSTR=0.0017 | val=0.9853
+Ep 145/150 | L=0.0786 CE=0.1609 KD=0.0699 ICD=0.0192 LSTR=0.0011 | val=0.9860
+Ep 150/150 | L=0.0776 CE=0.1587 KD=0.0704 ICD=0.0175 LSTR=0.0010 | val=0.9860
+
+[✓] 已恢复最佳权重  val_acc=0.9863
+  推理时间统计
+
+  [Teacher]
+    每样本推理时间   : 0.000075 秒  /  75.352967 μs
+
+  [Student]
+    每样本推理时间   : 0.000065 秒  /  64.702516 μs
+
+=== 教师模型评估结果 ===
+加权精确率: 0.9865
+加权召回率: 0.9834
+加权F1分数: 0.9842
+
+=== 教师详细分类报告 ===
+              precision    recall  f1-score   support
+
+     Class_0       1.00      0.98      0.99      5819
+     Class_1       0.81      1.00      0.89       443
+
+    accuracy                           0.98      6262
+   macro avg       0.90      0.99      0.94      6262
+weighted avg       0.99      0.98      0.98      6262
+
+
+=== 学生模型评估结果 ===
+加权精确率: 0.9866
+加权召回率: 0.9837
+加权F1分数: 0.9845
+
+=== 学生详细分类报告 ===
+              precision    recall  f1-score   support
+
+     Class_0       1.00      0.98      0.99      5819
+     Class_1       0.82      1.00      0.90       443
+
+    accuracy                           0.98      6262
+   macro avg       0.91      0.99      0.94      6262
+weighted avg       0.99      0.98      0.98      6262
+

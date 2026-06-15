@@ -1,0 +1,119 @@
+nohup: ignoring input
+提取时序特征
+计算IP统计
+提取并拟合文本特征
+应用方差筛选和标准化
+开始训练 (Epochs: 100)...
+Epoch 1/100: Loss 0.2610, Val AUC 0.9686
+Epoch 2/100: Loss 0.2077, Val AUC 0.9779
+Epoch 3/100: Loss 0.1771, Val AUC 0.9828
+Epoch 4/100: Loss 0.1527, Val AUC 0.9865
+Epoch 5/100: Loss 0.1367, Val AUC 0.9879
+Epoch 6/100: Loss 0.1252, Val AUC 0.9893
+Epoch 7/100: Loss 0.1168, Val AUC 0.9905
+Epoch 8/100: Loss 0.1102, Val AUC 0.9911
+Epoch 9/100: Loss 0.1051, Val AUC 0.9918
+Epoch 10/100: Loss 0.1008, Val AUC 0.9925
+Epoch 11/100: Loss 0.0971, Val AUC 0.9924
+Epoch 12/100: Loss 0.0926, Val AUC 0.9930
+Epoch 13/100: Loss 0.0916, Val AUC 0.9933
+Epoch 14/100: Loss 0.0870, Val AUC 0.9933
+Epoch 15/100: Loss 0.0865, Val AUC 0.9938
+Epoch 16/100: Loss 0.0845, Val AUC 0.9940
+Epoch 17/100: Loss 0.0818, Val AUC 0.9940
+Epoch 18/100: Loss 0.0808, Val AUC 0.9943
+Epoch 19/100: Loss 0.0779, Val AUC 0.9942
+Epoch 20/100: Loss 0.0770, Val AUC 0.9946
+Epoch 21/100: Loss 0.0751, Val AUC 0.9945
+Epoch 22/100: Loss 0.0729, Val AUC 0.9947
+Epoch 23/100: Loss 0.0722, Val AUC 0.9946
+Epoch 24/100: Loss 0.0714, Val AUC 0.9949
+Epoch 25/100: Loss 0.0699, Val AUC 0.9950
+Epoch 26/100: Loss 0.0692, Val AUC 0.9952
+Epoch 27/100: Loss 0.0673, Val AUC 0.9953
+Epoch 28/100: Loss 0.0672, Val AUC 0.9952
+Epoch 29/100: Loss 0.0651, Val AUC 0.9951
+Epoch 30/100: Loss 0.0653, Val AUC 0.9954
+Epoch 31/100: Loss 0.0636, Val AUC 0.9951
+Epoch 32/100: Loss 0.0630, Val AUC 0.9954
+Epoch 33/100: Loss 0.0621, Val AUC 0.9953
+Epoch 34/100: Loss 0.0613, Val AUC 0.9957
+Epoch 35/100: Loss 0.0603, Val AUC 0.9954
+Epoch 36/100: Loss 0.0601, Val AUC 0.9956
+Epoch 37/100: Loss 0.0593, Val AUC 0.9955
+Epoch 38/100: Loss 0.0589, Val AUC 0.9956
+Epoch 39/100: Loss 0.0576, Val AUC 0.9958
+Epoch 40/100: Loss 0.0573, Val AUC 0.9958
+Epoch 41/100: Loss 0.0561, Val AUC 0.9959
+Epoch 42/100: Loss 0.0551, Val AUC 0.9960
+Epoch 43/100: Loss 0.0551, Val AUC 0.9959
+Epoch 44/100: Loss 0.0550, Val AUC 0.9959
+Epoch 45/100: Loss 0.0549, Val AUC 0.9960
+Epoch 46/100: Loss 0.0543, Val AUC 0.9959
+Epoch 47/100: Loss 0.0526, Val AUC 0.9960
+Epoch 48/100: Loss 0.0467, Val AUC 0.9964
+Epoch 49/100: Loss 0.0439, Val AUC 0.9965
+Epoch 50/100: Loss 0.0422, Val AUC 0.9966
+Epoch 51/100: Loss 0.0407, Val AUC 0.9965
+Epoch 52/100: Loss 0.0416, Val AUC 0.9966
+Epoch 53/100: Loss 0.0407, Val AUC 0.9965
+Epoch 54/100: Loss 0.0392, Val AUC 0.9966
+Epoch 55/100: Loss 0.0396, Val AUC 0.9964
+Epoch 56/100: Loss 0.0390, Val AUC 0.9967
+Epoch 57/100: Loss 0.0383, Val AUC 0.9967
+Epoch 58/100: Loss 0.0388, Val AUC 0.9967
+Epoch 59/100: Loss 0.0379, Val AUC 0.9967
+Epoch 60/100: Loss 0.0368, Val AUC 0.9966
+Epoch 61/100: Loss 0.0377, Val AUC 0.9966
+Epoch 62/100: Loss 0.0368, Val AUC 0.9967
+Epoch 63/100: Loss 0.0342, Val AUC 0.9968
+Epoch 64/100: Loss 0.0328, Val AUC 0.9968
+Epoch 65/100: Loss 0.0322, Val AUC 0.9969
+Epoch 66/100: Loss 0.0325, Val AUC 0.9968
+Epoch 67/100: Loss 0.0313, Val AUC 0.9969
+Epoch 68/100: Loss 0.0308, Val AUC 0.9968
+Epoch 69/100: Loss 0.0306, Val AUC 0.9968
+Epoch 70/100: Loss 0.0306, Val AUC 0.9969
+Epoch 71/100: Loss 0.0301, Val AUC 0.9969
+Epoch 72/100: Loss 0.0287, Val AUC 0.9970
+Epoch 73/100: Loss 0.0285, Val AUC 0.9970
+Epoch 74/100: Loss 0.0279, Val AUC 0.9969
+Epoch 75/100: Loss 0.0278, Val AUC 0.9969
+Epoch 76/100: Loss 0.0271, Val AUC 0.9969
+Epoch 77/100: Loss 0.0275, Val AUC 0.9970
+Epoch 78/100: Loss 0.0265, Val AUC 0.9970
+Epoch 79/100: Loss 0.0264, Val AUC 0.9970
+Epoch 80/100: Loss 0.0268, Val AUC 0.9970
+Epoch 81/100: Loss 0.0267, Val AUC 0.9970
+Epoch 82/100: Loss 0.0261, Val AUC 0.9970
+Epoch 83/100: Loss 0.0256, Val AUC 0.9970
+Epoch 84/100: Loss 0.0252, Val AUC 0.9970
+Epoch 85/100: Loss 0.0253, Val AUC 0.9970
+Epoch 86/100: Loss 0.0249, Val AUC 0.9970
+Epoch 87/100: Loss 0.0256, Val AUC 0.9970
+Epoch 88/100: Loss 0.0251, Val AUC 0.9970
+Epoch 89/100: Loss 0.0252, Val AUC 0.9970
+Epoch 90/100: Loss 0.0246, Val AUC 0.9970
+Epoch 91/100: Loss 0.0249, Val AUC 0.9970
+Epoch 92/100: Loss 0.0251, Val AUC 0.9970
+Epoch 93/100: Loss 0.0246, Val AUC 0.9970
+Epoch 94/100: Loss 0.0247, Val AUC 0.9970
+Epoch 95/100: Loss 0.0248, Val AUC 0.9970
+Epoch 96/100: Loss 0.0247, Val AUC 0.9970
+Epoch 97/100: Loss 0.0244, Val AUC 0.9970
+Epoch 98/100: Loss 0.0248, Val AUC 0.9970
+Epoch 99/100: Loss 0.0243, Val AUC 0.9970
+Epoch 100/100: Loss 0.0247, Val AUC 0.9970
+训练完成 最佳验证 AUC: 0.9970
+
+分类报告:
+              precision    recall  f1-score   support
+
+       Human       0.99      0.98      0.98     91213
+         Bot       0.95      0.98      0.97     43754
+
+    accuracy                           0.98    134967
+   macro avg       0.97      0.98      0.98    134967
+weighted avg       0.98      0.98      0.98    134967
+
+F1分数: 0.9668 | AUC-ROC: 0.9967
